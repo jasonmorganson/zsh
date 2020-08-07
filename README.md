@@ -1,4 +1,4 @@
 ZSH
 ===
 
-A dockerized zsh environment
+Personal ZSH configuration
