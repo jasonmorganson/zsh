@@ -41,8 +41,6 @@ alias py='python'
 alias python='python3'
 alias pip='pip3'
 
-alias psql=pgcli
-
 alias k='kubectl'
 alias kfwd='kubefwd'
 alias kubens='kubie ns'
