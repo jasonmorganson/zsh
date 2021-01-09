@@ -15,6 +15,7 @@ alias ll='exa --long --header --git'
 
 alias g='git'
 alias c='git-smart-commit'
+alias co='fzf-git::checkout_branch'
 alias a='git-smart-add -p'
 alias p='git-smart-push seletskiy'
 alias u='git-smart-pull'
