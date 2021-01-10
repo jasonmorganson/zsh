@@ -15,6 +15,7 @@ alias ll='exa --long --header --git'
 
 alias g='git'
 alias c='git-smart-commit'
+alias co='fzf-git::checkout_branch'
 alias a='git-smart-add -p'
 alias p='git-smart-push seletskiy'
 alias u='git-smart-pull'
@@ -25,10 +26,6 @@ alias gl='git log'
 alias diff='git diff'
 alias wip='git commit -am "WIP"'
 alias unpushed='git log --branches --not --remotes --no-walk --decorate --oneline'
-
-co() {
-  fzf-git::checkout_branch
-}
 
 v() {
   local files
