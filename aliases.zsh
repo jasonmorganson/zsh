@@ -44,8 +44,6 @@ alias pip='pip3'
 
 alias k='kubectl'
 alias kfwd='kubefwd'
-alias kubens='kubie ns'
-alias kubectx='kubie ctx'
 
 alias aliasall="{ alias; git aliases;  } | sort"
 
