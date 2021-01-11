@@ -43,6 +43,8 @@ alias python='python3'
 alias pip='pip3'
 
 alias k='kubectl'
+alias kns='kubens'
+alias kctx='kubectx'
 alias kfwd='kubefwd'
 
 alias aliasall="{ alias; git aliases;  } | sort"
